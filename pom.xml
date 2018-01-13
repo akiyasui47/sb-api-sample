@@ -42,12 +42,15 @@
         </dependency>
 
         <!-- For Transaction Layer -->
+        <!--
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>
         </dependency>
+        -->
 
         <!-- for Dao Layer -->
+        <!--
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
@@ -58,6 +61,7 @@
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
+        -->
 
         <!-- for Test -->
         <dependency>
