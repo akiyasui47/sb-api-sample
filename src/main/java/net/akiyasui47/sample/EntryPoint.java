@@ -2,25 +2,15 @@ package net.akiyasui47.sample;
 
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * EntryPoint
  *
  * @author akiyasui47
  */
-@Controller
-@EnableAutoConfiguration
+@SpringBootApplication
 public class EntryPoint {
-
-    @RequestMapping("/")
-    @ResponseBody
-    String home() {
-        return "Hello World!";
-    }
 
     /**
      * main
@@ -32,4 +22,5 @@ public class EntryPoint {
     public static void main (String[] args) {
         SpringApplication.run(EntryPoint.class, args);
     }
+
 }
