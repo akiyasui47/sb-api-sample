@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    # common
+    driverClassName: com.mysql.jdbc.Driver
+    # for local environment
+    url: jdbc:mysql://localhost:3306/sample?useSSL=false
+    username: root
+    password:
